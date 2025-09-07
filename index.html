@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <h1 id="title"> Conversor de Moedas</h1>
+
+    <div class="container">
+
+         <input type="number" id="amount" placeholder="valor">
+
+    <select id="firstHolder">
+      <option value="BRL">BRL</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+
+    <span id="icon"> <i class="fa-sharp fa-solid fa-arrow-down-up-across-line"></i> </span> 
+     <!-- icone de trocar conversões -->
+
+    <select id="secondHolder">
+        <option value="USD">USD</option>
+        <option value="BRL">BRL</option>
+        <option value="EUR">EUR</option>
+    </select>
+
+    <button id="btn"> Converter </button>
+
+    <p id="result"></p>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
